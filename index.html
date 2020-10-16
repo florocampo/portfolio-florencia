@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Portfolio: Florencia Micaela Ocampo</title>
+  <!-- FAVICON -->
+  <link rel="shortcut icon" href="./img/favicon.svg" type="image/x-icon">
+
+  <!-- STYLE CSS -->
+  <link rel="stylesheet" href="./css/style.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+
+
+</head>
+
+<body>
+  <header>
+    <nav class="nav-header">
+      <ul id="ul-header">
+        <a href="#a-hola">
+          <li class="menu-header">HOLA</li>
+        </a>
+        <a href="#a-skills">
+          <li class="menu-header">CONOCIMIENTOS</li>
+        </a>
+        <a href="#a-proyectos">
+          <li class="menu-header">PROYECTOS</li>
+        </a>
+        <a href="#a-contacto">
+          <li class="menu-header button">CONTACTO</li>
+        </a>
+      </ul>
+      <i id="icono-burger" class="fas fa-bars"></i>
+  </nav>
+
+  <!-- MENU DESPLEGABLE MOBILE -->
+    <nav id="menu-mobile" class="contenedor-barra-mobile">
+      <ul id="lista-barra-mobile" class="barra-mobile">
+        <a href="#a-hola">
+          <li class="menu-header">HOLA</li>
+        </a>
+        <a href="#a-skills">
+          <li class="menu-header">CONOCIMIENTOS</li>
+        </a>
+        <a href="#a-proyectos">
+          <li class="menu-header">PROYECTOS</li>
+        </a>
+        <a href="#a-contacto">
+          <li class="menu-header">CONTACTO</li>
+        </a>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- SECCIÓN HOLA -->
+
+  <section class="seccion-hola" id="a-hola">
+    <div class="contenedor-hola">
+      <div class="texto-hola">
+        <h3>¡Hola! Soy</h3>
+        <h1>Florencia Micaela Ocampo</h1>
+        <p class="p-hola">Desarroladora FrontEnd y Diseñadora Gráfica</p>
+        
+        <ul>
+          <a href="#a-proyectos">
+            <li class="button">LO QUE HAGO</li>
+          </a>
+        </ul>
+      </div>
+      
+        <img class="img-hola" src="./img/designer.svg" alt="">
+        
+    </div>
+  </section>
+
+  <!-- SECCION SKILLS -->
+
+  <section class="seccion-skills" id="a-skills">
+
+    <h2 class="h2-skills">Mis Conocimientos</h2>
+    <p class="texto-skills">Sin el juego el aprendizaje y la evolución son imposibles. Estos son mis conocimientos y pronto tendré algunos más! </p>
+    <div class="contenedor-skills">
+
+      <div class="skills">
+        <img class="img-skills" src="./img/logos-conoc/html5.svg" alt="HTML5">
+        <p class="p-titulo-skills">HTML 5</p>
+      </div>
+      
+      <div class="skills">
+        <img class="img-skills" src="./img/logos-conoc/sass.svg" alt="Saas">
+        <p class="p-titulo-skills">Saas</p>
+      </div>
+
+      <div class="skills">
+        <img class="img-skills" src="./img/logos-conoc/javascript.svg" alt="JavaScript">
+        <p class="p-titulo-skills">JavaScript</p>
+      </div>
+
+      <div class="skills">
+        <img class="img-skills" src="./img/logos-conoc/react.svg" alt="React">
+        <p class="p-titulo-skills">React</p>
+      </div>
+
+      <div class="skills">
+        <img class="img-skills" src="./img/logos-conoc/git.svg" alt="Git">
+        <p class="p-titulo-skills">GIT</p>
+      </div>
+
+    </div>
+    
+  </section>
+
+  <!-- SECCION QUOTE -->
+
+  <section class="seccion-quote" id="a-quote">
+
+    <div class="div-quote">
+
+      <!--FONTAWESOME-->
+      <i class="fas fa-quote-right ícono-cita" aria-label="Comilla de apertura"></i>
+
+      <blockquote>
+        <p class="p-quote">Es importante recordar que todos tenemos magia dentro de nosotros.</p>
+      </blockquote>
+
+      <h3 class="h3-quote">J. K. Rowling</h3>
+    </div>
+
+  </section>
+
+  <!--SECCIÓN PROYECTOS-->
+
+  <section class="seccion-proyectos" id="a-proyectos">
+
+    <h2 class="h2-proyectos">Mis Proyectos</h2>
+    <div class="botonera-proyectos">
+
+      <button data-name="todos" class="menu-proyectos buttonClicked" id="boton-todos">TODOS</button>
+      <button data-name="html" class="menu-proyectos">HTML/CSS</button>
+      <button data-name="js" class="menu-proyectos">JavaScript</button>
+      <button data-name="react" class="menu-proyectos">React</button>
+
+    </div>
+
+    <div class="contenedor-proyectos">
+
+      <a href="" target="_blank">
+        <div data-name="html" class="proyectos">
+          <img class="img-proyectos" src="./img/portfolio-flor.svg" alt="Portfolio de Flor">
+          <p class="p-titulo-proyectos">Portfolio</p>
+        </div>
+      </a>
+
+      <a href="" target="_blank">
+        <div data-name="js" class="proyectos">
+          <img class="img-proyectos" src="./img/tienda.svg" alt="Tienda">
+          <p class="p-titulo-proyectos">Tienda</p>
+        </div>
+      </a>
+
+      <a href="" target="_blank">
+        <div data-name="js" class="proyectos">
+          <img class="img-proyectos" src="./img/money.svg" alt="Controlador de Gastos">
+          <p class="p-titulo-proyectos">Controlador de Gastos </p>
+        </div>
+      </a>
+
+      <a href="" target="_blank">
+        <div data-name="js" class="proyectos">
+          <img class="img-proyectos" src="./img/administrador.svg" alt="Administrador de Reuniones">
+          <p class="p-titulo-proyectos">Administrador de Reuniones</p>
+        </div>
+      </a>
+
+      <a href="" target="_blank">
+        <div data-name="react" class="proyectos">
+          <img class="img-proyectos" src="./img/peliculas.svg" alt="Buscador de Películas">
+          <p class="p-titulo-proyectos">Buscador de Películas</p>
+
+        </div>
+      </a>
+      
+    </div>
+
+  </section>
+
+  <!--FOOTER-->
+
+  <footer class="seccion-footer">
+    <nav class="nav-footer">
+      <ul>
+        <a href="#a-hola">
+          <li class="menu-footer">HOLA</li>
+        </a>
+        <a href="#a-skills">
+          <li class="menu-footer">CONOCIMIENTOS</li>
+        </a>
+        <a href="#a-proyectos">
+          <li class="menu-footer">PROYECTOS</li>
+        </a>
+        <a href="#a-contacto">
+          <li class="menu-footer">CONTACTO</li>
+        </a>
+      </ul>
+    </nav>
+
+    <div class="div-contacto" id="a-contacto">
+      <a target="_blank" href="https://github.com/florocampo">
+        <img class="img-contacto" src="./img/iconos/github.svg" alt="Git">
+      </a>
+
+      <a target="_blank" href="https://www.linkedin.com/in/florencia-micaela-ocampo-1a4068157/">
+        <img class="img-contacto" src="./img/iconos/linkedin.svg" alt="Linkedin">
+      </a>
+
+      <a target="_blank" href="malito:flor.ocampo@live.com">
+        <img class="img-contacto" src="./img/iconos/at-solid.svg" alt="Mail">
+      </a>
+
+      <a target="_blank" href="https://www.twitter.com/FlorOcampoOk">
+        <img class="img-contacto" src="./img/iconos/twitter.svg" alt="Twitter">
+      </a>
+
+    </div>
+    
+    <p class="amor">
+      Hecho con ❤️ por Flor!
+    </p>
+
+    <!-- RECURSOS GRATIS:
+      <div class="footer-recursos" 
+          <a href="https://stories.freepik.com/web">Illustration by Stories by Freepik</a>
+          <a href="https://fontawesome.com/icons">Icons by Fontawesome</a>-->
+  </footer>
+</body>
+</html>
