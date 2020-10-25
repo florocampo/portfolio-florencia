@@ -326,8 +326,148 @@ a:hover {
 }
 
 /*--------------------------------
+        SECCION CONTACTO
+----------------------------------*/
+.section {
+    padding: 110px 40px 130px;
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor-formulario {
+    background-color: #f9d4e2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-contacto {
+    display: flex;
+    width: 75%;
+    background-color: white;
+    border: 2px solid #dddfe5;
+    border-radius: 8px;
+    padding: 60px 30px;
+}
+
+.sides {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    padding: 10px;
+    justify-content: flex-start;
+    
+}
+
+.sides-h2 {
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+
+.sides-p {
+    margin-top:0;
+    margin-right: 150px;
+    margin-bottom: 20px;
+    
+}
+
+.lista-redes {
+    margin: 0;
+    display: inline;   
+}
+
+.secciones-completar {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 10px;
+}
+
+.contenedor-lista-redes {
+    display: flex;
+    flex-direction: column;
+}
+
+.primera-linea {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.espacio-nombre {
+    width: 47%;
+}
+
+input, textarea{
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(240, 240, 240);
+    border: 2px solid transparent;
+    border-radius: 20px;
+    outline-style:none;
+}
+
+label {
+    margin-bottom: 8px;
+    font-weight: 800;
+}
+
+input[type="submit"] {
+    width: 25%;
+    padding: 13px 18px;
+    background-color:#DD0079;
+    border-radius: 20px;
+    color: white;
+    font-size: 18px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.redes-formulario {
+    width:40px ;
+    height: 40px;
+    font-size: 20px;
+    color: #EB0081;
+    background-color: white;
+    border:1px solid transparent;
+    border-radius: 50%;
+    line-height: 40px !important;
+    text-align: center;
+    margin:6px;
+    
+}
+
+.redes-formulario:hover {
+    color:white;
+    background-color:#f9d4e2 ;
+}
+
+.link-redes, .link-redes:visited {
+    color: #3e434b;
+}
+
+.link-redes:hover {
+    color:#f9d4e2;
+}
+
+small {
+    color: rgb(203, 203, 203);
+}
+
+input:hover, textarea:hover{
+    box-shadow: 0 0 5px 0 #DD0079;
+}
+input:valid, textarea:valid{
+    box-shadow: 0 0 5px 0 rgb(67, 173, 159);
+}
+
+
+
+/*--------------------------------
             FOOTER
 ----------------------------------*/
+
 .seccion-footer {
     background-color: #EB0081;
     padding: 45px;
@@ -449,7 +589,13 @@ a:hover {
         padding-right: 0;
     }
 
+    .form-contacto {
+        width: 70%;
+    }
+
 }
+
+
 
 /*-------------------------
     @MEDIA CELULARES
@@ -576,19 +722,7 @@ a:hover {
         padding: 10px;
         cursor: pointer;
     }
-    .proyectos:hover {
-        color: #CC0070;
-    }
-
-    /*--------------------------------
-        SECCIÓN CONTACTO
-    ----------------------------------*/
-    
-
-
-
-
-
+  
     /*--------------------------------
                 FOOTER
     ----------------------------------*/
