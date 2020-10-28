@@ -10,47 +10,23 @@
   <link rel="stylesheet" href="./css/style.css">
   <!--FONTAWESOME-->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://kit.fontawesome.com/462d8518bd.js" crossorigin="anonymous"></script>
 </head>
 
 <!-- HEADER -->
 <body>
-  <header>
-    <nav class="nav-header">
-      <ul id="ul-header">
-        <a href="#a-hola">
-          <li class="menu-header">HOLA</li>
-        </a>
-        <a href="#a-skills">
-          <li class="menu-header">CONOCIMIENTOS</li>
-        </a>
-        <a href="#a-proyectos">
-          <li class="menu-header">PROYECTOS</li>
-        </a>
-        <a href="#a-contacto">
-          <li class="menu-header button">CONTACTO</li>
-        </a>
-      </ul>
-      <i id="icono-burger" class="fas fa-bars"></i>
-  </nav>
 
-  <!-- MENU DESPLEGABLE MOBILE -->
-    <nav id="menu-mobile" class="contenedor-barra-mobile">
-      <ul id="lista-barra-mobile" class="barra-mobile">
-        <a href="#a-hola">
-          <li class="menu-header">HOLA</li>
-        </a>
-        <a href="#a-skills">
-          <li class="menu-header">CONOCIMIENTOS</li>
-        </a>
-        <a href="#a-proyectos">
-          <li class="menu-header">PROYECTOS</li>
-        </a>
-        <a href="#a-contacto">
-          <li class="menu-header">CONTACTO</li>
-        </a>
-      </ul>
-    </nav>
+  <header>
+    <div class="topnav" id="myTopnav">
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars menu-burger"></i></a>
+      <a href="#a-hola" class="nav-button">HOLA</a>
+      <a href="#a-skills" class="nav-button">CONOCIMIENTOS</a>
+      <a href="#a-proyectos" class="nav-button">PROYECTOS</a>
+      <a href="#a-contacto" class="button-contact">CONTACTO</a>
+
+      </a>
+    </div> 
   </header>
 
   <!-- SECCIÓN HOLA -->
@@ -192,13 +168,14 @@
 
   <!--SECCION CONTACTO-->
   
-  <section class="section contenedor-formulario">
-    <form class="form-contacto">
-        <div class="sides">
+  <section class="section contact-section" id="a-contacto">
+    <div class="column">
+      <div class="contact">
+        <section class="contact-column">
             <h2 class="side-h2">Contactame</h2>
-            <p class="side-p">Si desea ponerse en contacto conmigo o por algun otro tema para dar algun consejo y/o comentario, </br>¡Escribeme!</p>
+            <p class="side-p">Si desea ponerse en contacto conmigo.</br>¡Escribeme!</p>
             
-            <div class="contenedor-lista-redes">
+            <section >
                 <ul class="lista-redes">
                     <li><a href="https://twitter.com/FlorOcampoOk" class="link-redes" ><i class="fab fa-twitter redes-formulario" /></i>@FlorOcampoOk</a></li> 
                     <li><a href="https://github.com/florocampo" class="link-redes"><i class="fab fa-github-alt redes-formulario" /></i>florocampo</a></li> 
@@ -208,39 +185,47 @@
                     <li><a href="https://www.linkedin.com/in/florencia-micaela-ocampo-1a4068157/" class="link-redes"><i class="fab fa-linkedin-in redes-formulario" /></i>Florencia Micaela Ocampo</a></li> 
                     <li><a href="mailto:flor.ocampo@live.com" class="link-redes"><i class="fas fa-envelope redes-formulario" /></i>flor.ocampo@live.com</a></li>
                 </ul>
-            </div>
-        </div>
-        <div class="sides apartado-escribir">
-            <h2 class="apartado-escribeme">Escribime</h2>
-            <div class="primera-linea">
-                <div class="secciones-completar espacio-nombre">
+              </section>
+        
+      </section>
+      <section class="contact-column">
+            <h2 class="apartado-escribeme">Escribeme</h2>
+            <form
+            action="https://submit-form.com/dZv3lZKLnN2eByG6HXaMj"
+            method="POST"
+            class="contact-form"
+          >
+            <div class="input-name-wrapper">
+              <div class="form-control">
                     <label>Nombre *</label>
                     <input type="text"  placeholder="p.ej: Florencia" required>
-                </div>
-                <div class="secciones-completar espacio-nombre">
+                  </div>
+                    <div class="form-control">
                     <label>Apellido *</label>
                     <input type="text"  placeholder="p.ej: Ocampo" required>
-                </div>
+                  </div>
             </div>
 
-            <div class="secciones-completar">
+                    <div class="form-control">
                 <label>Email *</label>
                 <input type="text"  placeholder="p.ej: flor.ocampo@live.com" required>
-            </div>
+              </div>
 
-            <div class="secciones-completar">
+                <div class="form-control">
                 <label>Mensaje *</label>
                 <textarea name="mensaje" placeholder=" Escriba un mensaje aqui" cols="10" rows="8" required></textarea>
                 <small>* Los campos son requeridos</small>
-            </div>
+              </div>
 
-            <input type="submit" value="Enviar">
-        </div>
+              <button type="submit" class="contact-send-btn button">
+                Enviar
+              </button>
+        
     </form>
 </section>
-
-  
-  
+</div>
+</div>
+</section>
 
   <!--FOOTER-->
 
@@ -292,3 +277,14 @@
   </footer>
 </body>
 </html>
+
+<script> 
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
