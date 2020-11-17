@@ -1,6 +1,4 @@
-<p align="center">
-<img src="https://github.com/florocampo/portfolio-florencia/blob/master/img/readme.png?raw=true">
-</p>
+![images](https://github.com/florocampo/portfolio-florencia/blob/master/img/readme.png?raw=true)
 
 ### ¡Hola! Este es mi proyecto final del primer módulo del curso de Desarrollo Frontend de ADA. Es el primer acercamiento a HTML5, CSS3 y maqueteado con Flex. Es una página personal con diseño Responsivo. 
 
