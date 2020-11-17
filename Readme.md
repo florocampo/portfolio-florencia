@@ -45,3 +45,8 @@ Para obtener el _código de este proyecto_ tenes que seguir estos pasos:
 ### Agradezco a:
 * Mi profe, [John Parra](https://github.com/Jonhks), por enseñarme los primeros pasos para ser FrontEnd Developer. 
 * A mis compañeras por acompañarme siempre en cualquier momento.
+
+***
+<br>
+
+#### Hecho con 🧡 por Flor
