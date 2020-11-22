@@ -43,8 +43,9 @@ Para obtener el _código de este proyecto_ tenes que seguir estos pasos:
 - [x] Deploy en Netlify
 
 ### Agradezco a:
-* Mi profe, [John Parra](https://github.com/Jonhks), por enseñarme los primeros pasos para ser FrontEnd Developer. 
-* A mis compañeras por acompañarme siempre en cualquier momento.
+* A mi profe, [John Parra](https://github.com/Jonhks), a [Leydy](https://github.com/leydyk93) y a mis compañeras de esta nueva generacion de FrontEnd Developer, a su apoyo continuo...
+* A mi familia por acompañarme en este trayecto y ayudarme a continuarlo.
+* Y a mis hijos por portarse tan bien durante las clases y cuando tenía que hacer el proyecto 🧡.
 
 ***
 <br>
